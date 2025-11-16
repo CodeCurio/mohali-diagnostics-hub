@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Phone, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/srl-logo.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,9 +42,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-lg md:text-xl font-bold text-primary">
-              SRL Diagnostics Lab Mohali
-            </h1>
+            <img 
+              src={logoImage} 
+              alt="SRL Lab Mohali" 
+              className="h-12 md:h-16 w-auto"
+            />
           </div>
 
           {/* Desktop Menu */}
@@ -62,18 +65,18 @@ const Navigation = () => {
           {/* Phone & CTA */}
           <div className="hidden md:flex items-center space-x-3">
             <a
-              href="tel:+919876543210"
+              href="tel:+919115459115"
               className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
             >
               <Phone className="h-4 w-4" />
-              <span className="font-semibold">+91-98765-43210</span>
+              <span className="font-semibold">+91-91154-59115</span>
             </a>
             <Button
               asChild
               size="sm"
               className="bg-cta hover:bg-cta/90 text-cta-foreground font-semibold"
             >
-              <a href="tel:+919876543210">Book Now</a>
+              <a href="tel:+919115459115">Book Now</a>
             </Button>
           </div>
 
@@ -84,7 +87,7 @@ const Navigation = () => {
               size="sm"
               className="bg-cta hover:bg-cta/90 text-cta-foreground"
             >
-              <a href="tel:+919876543210">
+              <a href="tel:+919115459115">
                 <Phone className="h-4 w-4" />
               </a>
             </Button>
@@ -116,11 +119,11 @@ const Navigation = () => {
                 </button>
               ))}
               <a
-                href="tel:+919876543210"
+                href="tel:+919115459115"
                 className="flex items-center space-x-2 px-4 py-2 text-sm font-semibold text-primary"
               >
                 <Phone className="h-4 w-4" />
-                <span>+91-98765-43210</span>
+                <span>+91-91154-59115</span>
               </a>
             </div>
           </div>

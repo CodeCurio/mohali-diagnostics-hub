@@ -4,7 +4,7 @@ const steps = [
   {
     icon: Phone,
     title: "Call or WhatsApp",
-    description: "Contact us to book your test or health package",
+    description: "Contact us at +91-91154-59115 to book your test or health package",
     color: "bg-primary/10 text-primary",
   },
   {

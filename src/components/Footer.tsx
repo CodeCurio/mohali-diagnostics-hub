@@ -76,12 +76,12 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-1 flex-shrink-0 text-primary" />
-                <span>Phase 7, Sector 73, Mohali, Punjab 160071</span>
+                <span>Booth No 12, Sector 69, Sahibzada Ajit Singh Nagar, Punjab 160069</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
-                <a href="tel:+919876543210" className="hover:text-primary transition-colors">
-                  +91-98765-43210
+                <a href="tel:+919115459115" className="hover:text-primary transition-colors">
+                  +91-91154-59115
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -96,12 +96,12 @@ const Footer = () => {
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-4 w-4 flex-shrink-0 text-[#25D366]" />
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/919115459115"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  WhatsApp: +91-98765-43210
+                  WhatsApp: +91-91154-59115
                 </a>
               </li>
             </ul>
@@ -118,7 +118,7 @@ const Footer = () => {
             {/* Social Media */}
             <div className="flex items-center gap-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1G4jqnKdoj/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-background/10 hover:bg-primary flex items-center justify-center transition-colors"
@@ -127,7 +127,7 @@ const Footer = () => {
                 <Facebook className="h-4 w-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/srl_lab_mohali_home_collection?igsh=OXo4ZTF3dmdzMHh0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-background/10 hover:bg-primary flex items-center justify-center transition-colors"
@@ -136,7 +136,7 @@ const Footer = () => {
                 <Instagram className="h-4 w-4" />
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919115459115"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-background/10 hover:bg-[#25D366] flex items-center justify-center transition-colors"

@@ -186,9 +186,9 @@ const HealthPackages = () => {
             size="lg"
             className="bg-primary hover:bg-primary-light text-primary-foreground font-semibold"
           >
-            <a href="tel:+919876543210" className="flex items-center gap-2">
+            <a href="tel:+919115459115" className="flex items-center gap-2">
               <Phone className="h-5 w-5" />
-              Call us at +91-98765-43210
+              Call us at +91-91154-59115
             </a>
           </Button>
         </div>
