@@ -60,9 +60,9 @@ const Hero = () => {
                 size="lg"
                 className="w-full sm:w-auto bg-cta hover:bg-cta/90 text-cta-foreground text-base md:text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all"
               >
-                <a href="tel:+919876543210" className="flex items-center gap-2">
+                <a href="tel:+919115459115" className="flex items-center gap-2">
                   <Phone className="h-5 w-5" />
-                  Call Now: +91-98765-43210
+                  Call Now: +91-91154-59115
                 </a>
               </Button>
               <Button

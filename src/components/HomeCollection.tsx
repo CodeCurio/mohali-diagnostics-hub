@@ -106,9 +106,9 @@ const HomeCollection = () => {
               size="lg"
               className="w-full sm:w-auto bg-cta hover:bg-cta/90 text-cta-foreground font-semibold"
             >
-              <a href="tel:+919876543210" className="flex items-center justify-center gap-2">
+              <a href="tel:+919115459115" className="flex items-center justify-center gap-2">
                 <Phone className="h-5 w-5" />
-                Schedule Home Collection — Call +91-98765-43210
+                Schedule Home Collection — Call +91-91154-59115
               </a>
             </Button>
           </div>

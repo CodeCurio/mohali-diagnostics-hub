@@ -18,7 +18,7 @@ const Contact = () => {
           {/* Map */}
           <div className="glass-card rounded-2xl overflow-hidden shadow-xl">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.4087932564946!2d76.69316!3d30.70414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef8f3b6fc2db%3A0x3e49a8ff9e11e2b6!2sMohali%2C%20Punjab!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513358.1295466064!2d71.83685302734378!3d30.689887857721207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef6cb70d2235%3A0x7382d2598198611d!2sSRL%20Lab%20Mohali%20-%20Home%20Collection!5e0!3m2!1sen!2sin!4v1763320933921!5m2!1sen!2sin"
               width="100%"
               height="400"
               style={{ border: 0 }}
@@ -33,7 +33,7 @@ const Contact = () => {
                 className="w-full bg-primary hover:bg-primary-light text-primary-foreground"
               >
                 <a
-                  href="https://maps.google.com/?q=Mohali,Punjab"
+                  href="https://www.google.com/maps/place/SRL+Lab+Mohali+-+Home+Collection/@30.6898879,71.8368530,7z/data=!4m6!3m5!1s0x390fef6cb70d2235:0x7382d2598198611d!8m2!3d30.6898879!4d76.6931603!16s%2Fg%2F11y3ndmm3w"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -55,11 +55,11 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold text-lg mb-2">Address</h3>
                   <p className="text-muted-foreground">
-                    Phase 7, Industrial Area
+                    Booth No 12, Sector 69
                     <br />
-                    Sector 73, Mohali, Punjab 160071
+                    Sahibzada Ajit Singh Nagar
                     <br />
-                    Near Metro Station
+                    Punjab 160069
                   </p>
                 </div>
               </div>
@@ -74,17 +74,17 @@ const Contact = () => {
                 <div className="flex-1">
                   <h3 className="font-bold text-lg mb-2">Phone</h3>
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919115459115"
                     className="text-lg text-primary hover:underline block mb-2"
                   >
-                    +91-98765-43210
+                    +91-91154-59115
                   </a>
                   <Button
                     asChild
                     size="sm"
                     className="bg-cta hover:bg-cta/90 text-cta-foreground"
                   >
-                    <a href="tel:+919876543210">Call Now</a>
+                    <a href="tel:+919115459115">Call Now</a>
                   </Button>
                 </div>
               </div>
@@ -111,11 +111,11 @@ const Contact = () => {
                     className="border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white"
                   >
                     <a
-                      href="https://wa.me/919876543210"
+                      href="https://wa.me/919115459115"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      WhatsApp: +91-98765-43210
+                      WhatsApp: +91-91154-59115
                     </a>
                   </Button>
                 </div>
