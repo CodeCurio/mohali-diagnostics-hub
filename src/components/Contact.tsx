@@ -99,10 +99,10 @@ const Contact = () => {
                 <div className="flex-1">
                   <h3 className="font-bold text-lg mb-2">Email & WhatsApp</h3>
                   <a
-                    href="mailto:info@srlmohali.com"
+                    href="mailto:connect@srllabmohali.in"
                     className="text-muted-foreground hover:text-primary block mb-2"
                   >
-                    info@srlmohali.com
+                    connect@srllabmohali.in
                   </a>
                   <Button
                     asChild
